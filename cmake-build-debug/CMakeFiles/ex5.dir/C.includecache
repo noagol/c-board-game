@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/noa/Documents/project/o-s/ex5/ex51.c
+stdio.h
+-
+unistd.h
+-
+termios.h
+-
+signal.h
+-
+string.h
+-
+
+/mnt/c/Users/noa/Documents/project/o-s/ex5/ex52.c
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+signal.h
+-
+stdio.h
+-
+
